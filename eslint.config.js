@@ -43,6 +43,12 @@ export default tseslint.config(
           jsxSingleQuote: false,
         },
       ],
+      'no-restricted-imports': [
+        'error',
+        {
+          patterns: ['@mui/*/*/*'],
+        },
+      ],
     },
   }
 )
