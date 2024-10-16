@@ -2,13 +2,13 @@ import { Outlet } from 'react-router-dom'
 
 import Container from '@mui/material/Container'
 
-import { Header } from '@/components/header'
+import { AppBar } from '@/components/app-bar'
 import { BoardBar } from '@/components/board-bar'
 
 export default function MainLayout() {
   return (
     <Container disableGutters maxWidth={false} sx={{ height: '100vh' }}>
-      <Header />
+      <AppBar />
       <BoardBar />
       <Outlet />
     </Container>

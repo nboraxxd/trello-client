@@ -74,6 +74,8 @@ const theme = createTheme({
       },
     },
   },
+
+  // ...other properties
 })
 
 export default theme
